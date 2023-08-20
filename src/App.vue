@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterLink } from 'vue-router'
+import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
@@ -7,7 +7,7 @@ import { RouterLink } from 'vue-router'
     <img alt="Dinervc logo" class="logo" src="@/assets/gameboy.png" width="75" />
 
     <div class="wrapper">
-      <RouterLink to="/" class="logoText">Dinervc Lab</RouterLink>
+      <RouterLink to="/" class="logo-text">Dinervc Lab</RouterLink>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -17,10 +17,12 @@ import { RouterLink } from 'vue-router'
       </nav>
     </div>
   </header>
+  <div class="router-view">
+    <RouterView></RouterView>
+  </div>
 </template>
 
 <style scoped>
-/* ... Existing Styles ... */
 
 header {
   position: absolute;
@@ -45,7 +47,7 @@ header {
   position: relative;
 }
 
-.logoText {
+.logo-text {
   text-align: center;
   margin-top: 10px;
   font-size: 20px;
@@ -87,7 +89,7 @@ nav a:first-of-type {
     justify-content: center; /* Center the children vertically within the wrapper */
   }
 
-  .logoText {
+  .logo-text {
     margin-top: 20px; /* You can adjust this value to your preference */
   }
 
