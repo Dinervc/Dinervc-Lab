@@ -40,9 +40,9 @@ npm install
 
 1. Run in Development Mode: This command starts a local server. You'll be able to see your changes in real-time thanks to hot-reloading.
 ```bash
-npm run serve
+npm run dev
 ```
-Open your browser and go to http://localhost:8080/ (or the address shown in your terminal) to see the app in action!
+Open your browser and go to http://localhost:3000/ (or the address shown in your terminal) to see the app in action!
 
 That's it! You've successfully set up Dinervc Lab on your machine. Dive in, explore, and happy coding! 🚀
 
