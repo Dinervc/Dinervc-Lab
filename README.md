@@ -50,7 +50,7 @@ That's it! You've successfully set up Dinervc Lab on your machine. Dive in, expl
 
 - [LinkedIn](https://www.linkedin.com/in/adrian-petrovic-47452b249)
 - [Linktree](https://www.linktr.ee/dinervc)
-- [Personal Website](https://www.dinervc.ch)
+- [Personal Website (Probably going to host this project here in the near future)](https://www.dinervc.ch)
 
 ## 📜 License
 
