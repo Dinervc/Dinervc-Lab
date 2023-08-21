@@ -10,8 +10,6 @@ import TheHome from '../components/TheHome.vue'
 
 <style>
   .home {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+    position: absolute;
   }
 </style>

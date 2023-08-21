@@ -28,7 +28,7 @@ header {
   position: absolute;
   top: 10px;
   left: 10px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   line-height: 1.5;
