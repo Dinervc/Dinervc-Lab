@@ -49,6 +49,13 @@ onMounted(async () => {
 </template>
 
 <style scoped>
+.router-view {
+  width: 92.5vw;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
 header {
   position: absolute;
   top: 0;
@@ -56,7 +63,6 @@ header {
   width: 100vw;
   display: flex;
   align-items: center;
-  max-height: 20vh;
 }
 
 nav.sticky {
@@ -66,7 +72,7 @@ nav.sticky {
   background: linear-gradient(-45deg, #414141e5, #756b6be5, #4b5051e5, #3e4341e5);
   background-size: 400% 400%;
   animation: gradient 8s ease infinite;
-  padding-top: 20px;
+  /*padding-top: 20px;*/
   margin-top: 0;
   width: 100vw;
   text-align: center;
