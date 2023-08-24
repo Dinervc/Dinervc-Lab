@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import './base.css';
 
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: #00bd7e;
   transition: 0.4s;
+  font-family: 'VT323', monospace;
 }
 
 @media (hover: hover) {
