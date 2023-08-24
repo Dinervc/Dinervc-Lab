@@ -42,6 +42,7 @@ import TheHome from '../components/TheHome.vue'
   border-radius: 5px;
   font-size: 25px;
   padding-bottom: 6px;
+  background-color: black;
 }
 
 .grid-container {

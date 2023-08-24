@@ -46,6 +46,7 @@ onMounted(async () => {
   <div class="router-view">
     <RouterView></RouterView>
   </div>
+  <div class="bg"></div>
 </template>
 
 <style scoped>
@@ -76,7 +77,7 @@ nav.sticky {
   background: linear-gradient(-45deg, #414141e5, #756b6be5, #4b5051e5, #3e4341e5);
   background-size: 400% 400%;
   animation: gradient 8s ease infinite;
-  padding-top: 11px;
+  /*padding-top: 11px;*/
   margin-top: 0;
   width: 100vw;
   text-align: center;
