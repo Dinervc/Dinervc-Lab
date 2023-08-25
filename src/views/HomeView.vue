@@ -7,8 +7,6 @@ import HomeGrid from '../components/HomeGrid.vue'
   <div class="home">
     <TheHome />
     <HomeGrid />
-
-
   </div>
 </template>
 
