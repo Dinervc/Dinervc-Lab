@@ -1,8 +1,11 @@
+<script setup lang="ts">
+import Projects from '../components/ProjectsGrid.vue'
+</script>
+
 <template>
   <div class="projects">
-    <h1>This is a projects page</h1>
+    <Projects />
   </div>
 </template>
 
-<style>
-</style>
+<style></style>
