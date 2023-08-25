@@ -21,6 +21,7 @@
         was awarded as the best Solo Hack out of the competition.</p>
       <br><button class="demo"><a href="path/to/demo" target="_blank">Demo</a></button>
     </div>
-</div></template>
+  </div>
+</template>
 
 <style></style>
