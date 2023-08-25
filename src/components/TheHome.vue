@@ -9,4 +9,12 @@
 </template>
 
 <style>
+.typing {
+  width: 95vw;
+}
+
+.typingImg {
+  height: 160px;
+  width: 95%;
+}
 </style>
