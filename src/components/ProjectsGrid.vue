@@ -11,7 +11,9 @@
                 put a lot of
                 work into it. I also created a custom logo. Truly, this is the best I was able to do (I was restricted by my
                 teacher, though) in 2nd year.</p>
-            <br><button class="demo"><a href="https://www.dinervc.ch/DiceDash/index.html" target="_blank">Demo</a></button>
+            <br><button class="demo"><a href="https://www.dinervc.ch/DiceDash/index.html"
+                    target="_blank">Demo</a></button><button class="demo"><a href="https://github.com/Dinervc/DiceDash"
+                    target="_blank">GitHub</a></button>
         </div>
         <div class="grid-item" id="reflectory">
             <h2>Reflectory</h2>
@@ -33,7 +35,8 @@
                 placed walls, every game is guarenteed to be different from the last. Created for a school project. Though,
                 further development is likely.</p>
             <br><button class="demo"><a href="https://www.dinervc.ch/SlitherScript/index.html"
-                    target="_blank">Demo</a></button>
+                    target="_blank">Demo</a></button><button class="demo"><a href="https://github.com/Dinervc/SlitherScript"
+                    target="_blank">GitHub</a></button>
         </div>
         <div class="grid-item">
             <h2>Information</h2>
@@ -45,13 +48,15 @@
                 amazing projects as well.</p>
         </div>
         <div class="grid-item" id="gespenster-demmin">
-            <h2>"Die Gespnster von Demmin" Reading Journal</h2>
+            <h2>"Die Gespenster von Demmin" Reading Journal</h2>
             <p>This is not your average dinervc-project nor reading journal. This is an HTML + CSS powered reading journal
                 for a book. As you might be able to guess, this was created for a school project. Code-wise this is not as
                 impeccable as the other projects but it serves as a great PoC that these kinds of things can be done in so
                 many ways, not just in text editors. And to give it a personal touch, I created my own font for it.</p>
             <br><button class="demo"><a href="https://www.dinervc.ch/LeseJournal/index.html"
                     target="_blank">Demo</a></button>
+            <button class="demo"><a href="https://github.com/Dinervc/Die-Gespenster-von-Demmin-Lesejournal"
+                    target="_blank">GitHub</a></button>
         </div>
         <div class="grid-item" id="reflectory">
             <h2>Reflectory</h2>
