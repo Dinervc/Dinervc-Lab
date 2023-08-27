@@ -11,7 +11,7 @@
                 put a lot of
                 work into it. I also created a custom logo. Truly, this is the best I was able to do (I was restricted by my
                 teacher, though) in 2nd year.</p>
-            <br><button class="demo"><a href="path/to/demo" target="_blank">Demo</a></button>
+            <br><button class="demo"><a href="https://www.dinervc.ch/DiceDash/index.html" target="_blank">Demo</a></button>
         </div>
         <div class="grid-item" id="reflectory">
             <h2>Reflectory</h2>
