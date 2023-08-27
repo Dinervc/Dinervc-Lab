@@ -19,8 +19,9 @@
       <p>This is an AI powered mental health improvement app. Created for the Hack United hackathon in August
         2023. It
         was awarded as the best Solo Hack out of the competition.</p>
-      <br><button class="demo"><a href="path/to/demo" target="_blank">Demo</a></button>
+      <br><button class="demo"><a href="https://github.com/Dinervc/Reflectory" target="_blank">GitHub</a></button>
     </div>
-</div></template>
+  </div>
+</template>
 
 <style></style>
