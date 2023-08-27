@@ -16,9 +16,8 @@
     </div>
     <div class="grid-item" id="reflectory">
       <h2>Featured Project - Reflectory</h2>
-      <p>This is an AI powered mental health improvement app. Created for the Hack United hackathon in August
-        2023. It was awarded as the best Solo Hack out of the competition. We were given the weekend to create a
-        project from ground up.</p>
+      <p>Developed for Hack United 2023, this AI-powered mental health app won 'Best Solo Hack.' The project was built
+        from scratch over a single weekend.</p>
       <br><button class="demo"><a href="https://github.com/Dinervc/Reflectory" target="_blank">GitHub</a></button>
     </div>
   </div>

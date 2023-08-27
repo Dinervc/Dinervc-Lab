@@ -6,20 +6,24 @@
             <h2>Dice Dash</h2>
             <p>Dice Dash is based on the popular <a href="https://en.wikipedia.org/wiki/Pig_(dice_game)" target="_blank">Pig
                     Dice Game</a>.
-                The project features things like 2 player game, AI opponent based on one of the most effective ways to play
-                the game, music and experimental settings to play around with. Even though this was just a school project, I
-                put a lot of
-                work into it. I also created a custom logo. Truly, this is the best I was able to do (I was restricted by my
-                teacher, though) in 2nd year.</p>
+                The project boasts a 2-player game mode, a highly effective AI opponent, immersive music, and experimental
+                settings for customization. Despite being a school assignment, I invested significant effort, even designing
+                a custom logo. Given the constraints from my teacher, this is my best work in my 2nd year.</p>
             <br><button class="demo"><a href="https://www.dinervc.ch/DiceDash/index.html"
                     target="_blank">Demo</a></button><button class="demo"><a href="https://github.com/Dinervc/DiceDash"
                     target="_blank">GitHub</a></button>
         </div>
+        <div class="grid-item" id="information">
+            <h2>Information</h2>
+            <p>I've initiated various projects over the last three years, ranging from school assignments to personal
+                educational endeavors. These projects showcase my growth throughout my computer science education. While
+                'Reflectory' stands out due to its Hackathon win, 'Dice Dash' is my best work in terms of technical
+                complexity. 'Webglide' and 'SlitherScript' are also noteworthy contributions.</p>
+        </div>
         <div class="grid-item" id="reflectory">
             <h2>Reflectory</h2>
-            <p>This is an AI powered mental health improvement app. Created for the Hack United hackathon in August
-                2023. It was awarded as the best Solo Hack out of the competition. We were given the weekend to create a
-                project from ground up.</p>
+            <p>Developed for Hack United 2023, this AI-powered mental health app won 'Best Solo Hack.' The project was built
+                from scratch over a single weekend.</p>
             <br><button class="demo"><a href="https://github.com/Dinervc/Reflectory" target="_blank">GitHub</a></button>
         </div>
         <div class="grid-item" id="webglide">
@@ -31,33 +35,24 @@
         </div>
         <div class="grid-item" id="slither-script">
             <h2>SlitherScript</h2>
-            <p>Playing snake was never more intense! Wether it's the power ups, the difficulty settings are the randomly
-                placed walls, every game is guarenteed to be different from the last. Created for a school project. Though,
-                further development is likely.</p>
+            <p>Playing Snake has never been more intense! With power-ups, adjustable difficulty settings, and randomly
+                placed walls, each game is guaranteed to be unique. Initially created as a school project, further
+                development is planned.</p>
             <br><button class="demo"><a href="https://www.dinervc.ch/SlitherScript/index.html"
                     target="_blank">Demo</a></button><button class="demo"><a href="https://github.com/Dinervc/SlitherScript"
                     target="_blank">GitHub</a></button>
         </div>
-        <div class="grid-item">
-            <h2>Information</h2>
-            <p>I started all of these projects within the last three years. Some were for a school project, some
-                were for my personal education and a few were created as a mix of both. They clearly outline just how far
-                I've come in less than three years of my computer science school. If I had to pick one, my most favorite one
-                is "Reflectory", for somewhat obvious reasons. However, if we disregard the fact that it won the Hackathon,
-                I would actually say Dice Dash is my best project. But let's not forget Webglide or SlitherScript! Both
-                amazing projects as well.</p>
-        </div>
         <div class="grid-item" id="gespenster-demmin">
             <h2>"Die Gespenster von Demmin" Reading Journal</h2>
-            <p>This is not your average dinervc-project nor reading journal. This is an HTML + CSS powered reading journal
-                for a book. As you might be able to guess, this was created for a school project. Code-wise this is not as
-                impeccable as the other projects but it serves as a great PoC that these kinds of things can be done in so
-                many ways, not just in text editors. And to give it a personal touch, I created my own font for it.</p>
+            <p>This HTML + CSS-powered reading journal transcends typical projects and offers a unique approach to book
+                summaries. Designed for a school assignment, it may not be flawless code-wise but stands as a powerful proof
+                of concept. To add a personal touch, I even created a custom font.</p>
             <br><button class="demo"><a href="https://www.dinervc.ch/LeseJournal/index.html"
                     target="_blank">Demo</a></button>
             <button class="demo"><a href="https://github.com/Dinervc/Die-Gespenster-von-Demmin-Lesejournal"
                     target="_blank">GitHub</a></button>
         </div>
+        <!--
         <div class="grid-item" id="reflectory">
             <h2>Reflectory</h2>
             <p>This is an AI powered mental health improvement app. Created for the Hack United hackathon in August
@@ -79,6 +74,7 @@
                 was awarded as the best Solo Hack out of the competition.</p>
             <br><button class="demo"><a href="path/to/demo" target="_blank">Demo</a></button>
         </div>
+        -->
     </div>
 </template>
 
@@ -92,5 +88,14 @@
     min-height: 350px;
     border: 1px solid gainsboro;
     border-radius: 10px;
+}
+
+#information {
+    background-color: rgba(58, 83, 56, 0.398);
+
+}
+
+#information>* {
+    font-weight: 800;
 }
 </style>
