@@ -87,10 +87,10 @@
 
     <section class="contact">
       <h2>Contact Me</h2>
-      <p>Email: info@dinervc.ch</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/adrianpetrovic">Dinervc's LinkedIn</a></p>
-      <p>GitHub: <a href="https://github.com/Dinervc">Dinervc's GitHub</a></p>
-      <p>Linktree: <a href="https://linktr.ee/dinervc">Dinervc's Linktree</a></p>
+      <p>Email: adrian@dinervc.ch</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/adrianpetrovic">My LinkedIn</a></p>
+      <p>GitHub: <a href="https://github.com/Dinervc">My GitHub</a></p>
+      <p>Linktree: <a href="https://linktr.ee/dinervc">My Linktree</a></p>
     </section>
   </div>
 </template>

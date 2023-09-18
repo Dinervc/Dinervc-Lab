@@ -2,6 +2,13 @@
 
 <template>
     <div class="grid-container" id="projectsDiv">
+        <div class="grid-item" id="information">
+            <h2>Information</h2>
+            <p>I've initiated various projects over the last three years, ranging from school assignments to personal
+                educational endeavors. These projects showcase my growth throughout my computer science education. While
+                'Reflectory' stands out due to its Hackathon win, 'Dice Dash' is my best work in terms of technical
+                complexity. 'Webglide' and 'SlitherScript' are also noteworthy contributions.</p>
+        </div>
         <div class="grid-item" id="dice-dash">
             <h2>Dice Dash</h2>
             <p>Dice Dash is based on the popular <a href="https://en.wikipedia.org/wiki/Pig_(dice_game)" target="_blank">Pig
@@ -12,13 +19,6 @@
             <br><button class="demo"><a href="https://www.dinervc.ch/DiceDash/index.html"
                     target="_blank">Demo</a></button><button class="demo"><a href="https://github.com/Dinervc/DiceDash"
                     target="_blank">GitHub</a></button>
-        </div>
-        <div class="grid-item" id="information">
-            <h2>Information</h2>
-            <p>I've initiated various projects over the last three years, ranging from school assignments to personal
-                educational endeavors. These projects showcase my growth throughout my computer science education. While
-                'Reflectory' stands out due to its Hackathon win, 'Dice Dash' is my best work in terms of technical
-                complexity. 'Webglide' and 'SlitherScript' are also noteworthy contributions.</p>
         </div>
         <div class="grid-item" id="reflectory">
             <h2>Reflectory</h2>
