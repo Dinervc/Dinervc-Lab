@@ -8,89 +8,102 @@
       <div>
         <h2>Who Am I?</h2>
         <p>
-          I'm Adrian Petrovic, an 18-year-old full-stack developer deep into my 3rd year of a computer science
-          apprenticeship in Switzerland. My passion extends from software to hardware, enjoying the thrill of breaking and
-          making things. Not just a coder, I've also built a significant social media following thanks to my decent
-          editing skills.
+          I'm Adrian Petrovic, a 19-year-old full-stack developer in the final year of my computer
+          science apprenticeship in Switzerland. My long-term goal is to become a software engineer
+          after earning a master's degree in computer science at ETH Zurich. To reach this
+          milestone, I'm currently preparing for the national Passerelle exam.
         </p>
         <p>
-          Entrepreneurially spirited, I co-founded a startup called Webglide, which leverages AI to simplify website
-          creation. The venture has been a success and continues to thrive. When I'm not coding or running a business,
-          you'll find me collecting vintage consoles—Gameboys, to be precise. I've even engineered Linux and Raspberry
-          Pi-based Gameboys of my own.
+          My interests span both software and hardware—I love the process of building, breaking, and
+          reimagining technology. Beyond development, I've grown a notable social media presence by
+          effectively profiting from trends and my skills.
         </p>
         <p>
-          A curious tinkerer at heart, I love delving into device security, always eager to switch roles from being just a
-          User to becoming an Admin.
+          With an entrepreneurial mindset, I actively explore startup ventures alongside like-minded
+          peers. Outside of coding and business, I collect vintage consoles and have even built
+          custom Game Boys using Linux and Raspberry Pi, reflecting my passion for hands-on hardware
+          projects.
+        </p>
+        <p>
+          At my core, I'm a curious tinkerer fascinated by device security. I'm always driven to
+          move beyond the user role and uncover what it means to be in control—whether that's
+          gaining admin access or pushing the limits of a system.
         </p>
       </div>
     </section>
 
     <section class="skills">
       <h2>Skills</h2>
+
+      <!-- Programming Languages -->
       <div class="skill">
-        <img src="../assets/svg/javascript.svg" alt="JavaScript">
-        JavaScript
+        <img src="https://cdn.simpleicons.org/python" alt="Python" />
+        Python
       </div>
       <div class="skill">
-        <img src="../assets/svg/java.svg" alt="Java">
+        <img src="../assets/svg/javascript.svg" alt="JavaScript" />
+        <img src="https://cdn.simpleicons.org/typescript" alt="TypeScript" />
+        JS/TS
+      </div>
+      <div class="skill">
+        <img src="https://cdn.simpleicons.org/typescript" alt="TypeScript" />
+        TypeScript
+      </div>
+      <div class="skill">
+        <img src="https://cdn.simpleicons.org/swift" alt="Swift" />
+        Swift
+      </div>
+      <div class="skill">
+        <img src="../assets/svg/java.svg" alt="Java" />
         Java
       </div>
       <div class="skill">
-        <img src="../assets/svg/vue.svg" alt="Vue.js">
+        <img src="https://cdn.simpleicons.org/c" alt="C" />
+        C
+      </div>
+
+      <!-- Frameworks -->
+      <div class="skill">
+        <img src="https://cdn.simpleicons.org/react" alt="React" />
+        React
+      </div>
+      <div class="skill">
+        <img src="../assets/svg/vue.svg" alt="Vue.js" />
         Vue.js
       </div>
+
+      <!-- Tools -->
       <div class="skill">
-        <img src="../assets/svg/bash.svg" alt="Bash">
-        Bash
-      </div>
-      <div class="skill">
-        <img src="../assets/svg/openai.svg" alt="GPT">
-        GPT
-      </div>
-      <div class="skill">
-        <img src="../assets/svg/git.svg" alt="Git">
+        <img src="../assets/svg/git.svg" alt="Git" />
         Git
       </div>
+      <div class="skill">Microsoft Office</div>
       <div class="skill">
-        <img src="../assets/svg/adobe.svg" alt="Editing">
-        Editing
+        <img src="../assets/svg/bash.svg" alt="Bash" />
+        Bash
       </div>
-      <div class="skill">
-        <img src="../assets/svg/docker.svg" alt="Docker">
-        Docker
-      </div>
-      <div class="skill">
-        <img src="../assets/svg/swift.svg" alt="Swift">
-        Swift
-      </div>
-      <div class="skill more-skills">
-        ...
-      </div>
+
+      <div class="skill more-skills">...</div>
     </section>
 
     <section class="learnings">
       <h2>Currently Learning</h2>
       <ul class="learning-list">
-        <li class="learning-item github">GitHub</li>
-        <li class="learning-item flutter">Flutter</li>
-        <li class="learning-item swift">Swift</li>
-        <li class="learning-item vue">Vue.js</li>
         <li class="learning-item python">Python</li>
-        <li class="learning-item devops">DevOps</li>
-        <li class="learning-item fp">Functional Programming</li>
-        <li class="learning-item ios">iOS Security</li>
+        <li class="learning-item swift">Swift</li>
+        <li class="learning-item c">C</li>
+        <li class="learning-item esp">ESP32 Electronics</li>
+        <li class="learning-item passerelle">Passerelle</li>
         <li class="learning-item more">...</li>
       </ul>
     </section>
 
-
     <section class="contact">
       <h2>Contact Me</h2>
       <p>Email: adrian@dinervc.ch</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/adrianpetrovic">My LinkedIn</a></p>
-      <p>GitHub: <a href="https://github.com/Dinervc">My GitHub</a></p>
-      <p>Linktree: <a href="https://linktr.ee/dinervc">My Linktree</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/adrianpetrovic">Here</a></p>
+      <p>GitHub: <a href="https://github.com/Dinervc">Here</a></p>
+      <p>Linktree: <a href="https://linktr.ee/dinervc">Here</a></p>
     </section>
   </div>
 </template>
@@ -99,7 +112,7 @@
 .about {
   margin-top: 150px;
   padding: 30px;
-  background-image: url("../assets/gameboy.png");
+  background-image: url('../assets/gameboy.png');
   background-repeat: no-repeat;
   background-size: 30%;
   background-position: 90% 90%;
@@ -132,17 +145,19 @@
   }
 }
 
-
 .container {
   display: flex;
   justify-content: space-between;
-
 }
-
 
 .skills {
   display: flex;
   flex-wrap: wrap;
+}
+
+.skills h2 {
+  flex-basis: 100%;
+  margin-bottom: 0.5rem;
 }
 
 .skill {
@@ -155,6 +170,7 @@
   background-color: rgba(255, 255, 255, 0.3);
   color: rgba(0, 0, 0, 1);
   font-weight: 700;
+  min-height: 24px; /* Ensures content box is at least height of image */
 }
 
 .skill img {
@@ -175,7 +191,6 @@
 .more-skills:hover {
   border-color: #666;
 }
-
 
 .learnings,
 .contact {
@@ -208,7 +223,7 @@
 }
 
 .learning-item::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -217,19 +232,9 @@
   transition: all 0.3s ease;
 }
 
-.github::before {
-  width: 95%;
-  background: rgb(112, 112, 112);
-}
-
-.flutter::before {
-  width: 30%;
-  background: rgb(0, 255, 255);
-}
-
 .swift::before {
-  width: 60%;
-  background: radial-gradient(rgb(193, 193, 193), rgb(255, 77, 0))
+  width: 40%;
+  background: radial-gradient(rgb(193, 193, 193), rgb(255, 77, 0));
 }
 
 .vue::before {
@@ -238,22 +243,22 @@
 }
 
 .python::before {
-  width: 20%;
-  background: linear-gradient(to right, rgb(0, 62, 207), rgb(197, 204, 0))
+  width: 85%;
+  background: linear-gradient(to right, rgb(0, 62, 207), rgb(197, 204, 0));
 }
 
-.devops::before {
-  width: 65%;
-  background: gainsboro
-}
-
-.fp::before {
-  width: 83%;
-  background: rgb(142, 124, 124)
-}
-
-.ios::before {
+.c::before {
   width: 5%;
-  background: rgb(255, 0, 111)
+  background: gainsboro;
+}
+
+.esp::before {
+  width: 10%;
+  background: radial-gradient(rgb(193, 193, 193), rgb(255, 77, 0));
+}
+
+.passerelle::before {
+  width: 1%;
+  background: rgb(83, 196, 105);
 }
 </style>
