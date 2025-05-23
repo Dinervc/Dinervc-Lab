@@ -4,9 +4,7 @@
   <div class="grid-container" id="home">
     <div class="grid-item">
       <h2>Welcome to the Digital Home of Dinervc</h2>
-      <p>A passionate Software Engineer based in Switzerland, currently immersed in academic studies, and dedicated to
-        developing innovative solutions through coding and programming. Explore my projects to witness my commitment to
-        efficiency and modern design principles. Let's build the future of technology together.</p>
+      <p>A passionate computer scientist based in Switzerland, currently immersed in academic studies, and dedicated to developing innovative solutions through programming. Explore my projects to witness my commitment to efficiency and modern design principles. Let's build the future of technology together.</p>
     </div>
     <div class="grid-item">
       <h2>About This Lab</h2>

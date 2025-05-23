@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Started Computer Science Education",
+    "date": "2019-08",
+    "description": "Began my journey in computer science with a focus on software development.",
+    "icon": "school",
+    "color": "#3a5338"
+  },
+  {
+    "id": 2,
+    "title": "First School Project - SlitherScript",
+    "date": "2020-03",
+    "description": "Created my first significant school project - a unique take on the classic Snake game.",
+    "icon": "code",
+    "color": "#5a7358"
+  },
+  {
+    "id": 3,
+    "title": "Web Development Journey",
+    "date": "2020-09",
+    "description": "Expanded my skills into web development with HTML, CSS, and JavaScript.",
+    "icon": "web",
+    "color": "#7a9378"
+  },
+  {
+    "id": 4,
+    "title": "Dice Dash Project",
+    "date": "2021-04",
+    "description": "Developed Dice Dash, a game with AI opponent and custom features.",
+    "icon": "casino",
+    "color": "#9ab398"
+  },
+  {
+    "id": 5,
+    "title": "Internship at Stäubli AG",
+    "date": "2021-08",
+    "description": "Started my internship at Stäubli AG, working on professional software projects.",
+    "icon": "work",
+    "color": "#bac3b8"
+  },
+  {
+    "id": 6,
+    "title": "TikTakToe Project",
+    "date": "2022-02",
+    "description": "Built a TikTok clone called TikTakToe using Swift and Firebase.",
+    "icon": "smartphone",
+    "color": "#8a9388"
+  },
+  {
+    "id": 7,
+    "title": "Cool Encryption Tool",
+    "date": "2022-06",
+    "description": "Created a Python application for file encryption, earning a perfect grade.",
+    "icon": "security",
+    "color": "#6a7368"
+  },
+  {
+    "id": 8,
+    "title": "Hackathon Winner - Reflectory",
+    "date": "2023-08",
+    "description": "Won 'Best Solo Hack' at Hack United 2023 with my mental health app Reflectory.",
+    "icon": "emoji_events",
+    "color": "#4a5348"
+  },
+  {
+    "id": 9,
+    "title": "HilRes Project",
+    "date": "2023-12",
+    "description": "Completed my final apprenticeship project, creating a Python module for HIL systems.",
+    "icon": "engineering",
+    "color": "#2a3328"
+  },
+  {
+    "id": 10,
+    "title": "Dinervc Lab Website",
+    "date": "2024-01",
+    "description": "Created my portfolio website using Vue.js to showcase my projects and skills.",
+    "icon": "laptop",
+    "color": "#1a2318"
+  }
+]

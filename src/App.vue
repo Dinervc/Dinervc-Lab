@@ -1,31 +1,31 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router';
-import { ref, onMounted, onUnmounted, nextTick } from 'vue';
+import { RouterLink, RouterView } from 'vue-router'
+import { ref, onMounted, onUnmounted, nextTick } from 'vue'
 
-const isSticky = ref(false);
-const navElement = ref<HTMLElement | null>(null);  // Reference to the nav element
-const navY = ref<number | null>(null);  // y position of the nav element
+const isSticky = ref(false)
+const navElement = ref<HTMLElement | null>(null) // Reference to the nav element
+const navY = ref<number | null>(null) // y position of the nav element
 
 onMounted(async () => {
-  await nextTick(); // Wait for the next DOM update cycle
+  await nextTick() // Wait for the next DOM update cycle
 
   if (navElement.value) {
-    navY.value = navElement.value.getBoundingClientRect().y;
+    navY.value = navElement.value.getBoundingClientRect().y
   }
 
   const handleScroll = () => {
     if (navY.value !== null) {
-      isSticky.value = window.scrollY > navY.value;
+      isSticky.value = window.scrollY > navY.value
     }
-  };
+  }
 
-  window.addEventListener('scroll', handleScroll);
-  handleScroll();  // Initial check
+  window.addEventListener('scroll', handleScroll)
+  handleScroll() // Initial check
 
   onUnmounted(() => {
-    window.removeEventListener('scroll', handleScroll);
-  });
-});
+    window.removeEventListener('scroll', handleScroll)
+  })
+})
 </script>
 
 <template>
@@ -39,6 +39,7 @@ onMounted(async () => {
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/projects">Projects</RouterLink>
+        <RouterLink to="/career">Career</RouterLink>
       </nav>
     </div>
   </header>
@@ -97,7 +98,6 @@ nav.sticky {
   flex-direction: column;
   align-items: center;
   position: relative;
-
 }
 
 @keyframes gradient {

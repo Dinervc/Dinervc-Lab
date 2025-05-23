@@ -184,6 +184,15 @@ body {
     url('../assets/coolencryptiontool.png');
 }
 
+#regbanksight {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  animation: gradient ease !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url('../assets/regbanksight.png');
+}
+
 #dice-dash {
   background-repeat: no-repeat !important;
   background-size: cover !important;

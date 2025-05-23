@@ -91,19 +91,19 @@
       <ul class="learning-list">
         <li class="learning-item python">Python</li>
         <li class="learning-item swift">Swift</li>
-        <li class="learning-item c">C</li>
         <li class="learning-item esp">ESP32 Electronics</li>
+        <li class="learning-item c">C</li>
         <li class="learning-item passerelle">Passerelle</li>
         <li class="learning-item more">...</li>
       </ul>
     </section>
 
     <section class="contact">
-      <h2>Contact Me</h2>
-      <p>Email: adrian@dinervc.ch</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/adrianpetrovic">Here</a></p>
-      <p>GitHub: <a href="https://github.com/Dinervc">Here</a></p>
-      <p>Linktree: <a href="https://linktr.ee/dinervc">Here</a></p>
+      <h2>Other channels</h2>
+      <p><a href="mailto:adrian@dinervc.ch">Send me an E-Mail</a></p>
+      <p><a href="https://www.linkedin.com/in/adrianpetrovic">Visit my LinkedIn</a></p>
+      <p><a href="https://github.com/Dinervc">View my GitHub Profile</a></p>
+      <!-- <p><a href="https://linktr.ee/dinervc">Here</a></p> -->
     </section>
   </div>
 </template>
