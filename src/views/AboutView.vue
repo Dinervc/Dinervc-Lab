@@ -46,10 +46,6 @@
         JS/TS
       </div>
       <div class="skill">
-        <img src="https://cdn.simpleicons.org/typescript" alt="TypeScript" />
-        TypeScript
-      </div>
-      <div class="skill">
         <img src="https://cdn.simpleicons.org/swift" alt="Swift" />
         Swift
       </div>
@@ -67,10 +63,10 @@
         <img src="https://cdn.simpleicons.org/react" alt="React" />
         React
       </div>
-      <div class="skill">
+      <!-- <div class="skill">
         <img src="../assets/svg/vue.svg" alt="Vue.js" />
         Vue.js
-      </div>
+      </div> -->
 
       <!-- Tools -->
       <div class="skill">
@@ -248,17 +244,17 @@
 }
 
 .c::before {
-  width: 5%;
+  width: 10%;
   background: gainsboro;
 }
 
 .esp::before {
-  width: 10%;
+  width: 15%;
   background: radial-gradient(rgb(193, 193, 193), rgb(255, 77, 0));
 }
 
 .passerelle::before {
-  width: 1%;
+  width: 5%;
   background: rgb(83, 196, 105);
 }
 </style>
